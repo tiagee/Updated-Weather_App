@@ -1,0 +1,61 @@
+body {
+  background: #f5e4d7;
+}
+a:link {
+  text-decoration: none;
+  color: #73877b;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  padding-bottom: 0%;
+}
+h3 {
+  text-align: center;
+}
+li {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+ul {
+  list-style: none;
+  text-align: center;
+}
+
+.day-heading {
+  font-size: 20px;
+}
+.weekly-temp {
+  font-size: 17px;
+}
+.new-weather-app {
+  background: #e5d1d0;
+  border: 3px solid black;
+  border-radius: 10px;
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 30px;
+}
+
+.new-weather-app-wrapper {
+  max-width: 900px;
+  margin: 50px auto;
+}
+
+.overview-picture {
+  font-size: 200px;
+  display: block;
+  text-align: center;
+}
+
+.rain-picture {
+  font-size: 50px;
+}
+
+.sunny-picture {
+  font-size: 50px;
+}
