@@ -27,22 +27,24 @@
       <div class="new-weather-app-wrapper">
         <div class="new-weather-app">
           <div class="row">
-            <div class="col-8">
-              <input
-                type="search"
-                placeholder="Enter a city"
-                class="form-control"
-                id="input"
-              />
-            </div>
-            <div class="col-4">
-              <input type="submit" value="Enter" />
-              <input type="submit" value="Current Location" />
-            </div>
+            <form>
+              <div class="col-8">
+                <input
+                  type="search"
+                  placeholder="Enter a city"
+                  class="form-control"
+                  id="input"
+                />
+              </div>
+              <div class="col-4">
+                <input type="submit" value="Enter" />
+                <input type="submit" value="Current Location" />
+              </div>
+            </form>
             <h1 id="city">Chicago</h1>
             <h3 id="date">Sunday 17:48</h3>
             <h2>
-              <span id="currentTemperature"></span>52
+              <span id="currentTemperature"></span>
               <a href="#" class="daily-temp units" id="fahrenheitLink"> °F</a
               >|<a href="#" class="daily-temp units" id="celsiusLink">°C</a>
             </h2>
